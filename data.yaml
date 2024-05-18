@@ -1,0 +1,14 @@
+names:
+- Keyboard
+- Monitor
+- Mouse
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: mltask
+  url: https://universe.roboflow.com/mltask/mltask/dataset/1
+  version: 1
+  workspace: mltask
+test: ../test/images
+train: MLTask-1/train/images
+val: MLTask-1/valid/images
